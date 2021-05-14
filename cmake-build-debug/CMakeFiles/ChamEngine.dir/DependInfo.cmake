@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/programming/JETBRAINS/CLion/ChamEngine/Engine/InputHandlerDef.c" "D:/programming/JETBRAINS/CLion/ChamEngine/cmake-build-debug/CMakeFiles/ChamEngine.dir/Engine/InputHandlerDef.c.obj"
+  "D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/GameObjectDef.c" "D:/programming/JETBRAINS/CLion/ChamEngine/cmake-build-debug/CMakeFiles/ChamEngine.dir/Engine/GameObject/GameObjectDef.c.obj"
+  "D:/programming/JETBRAINS/CLion/ChamEngine/Engine/Input/InputHandlerDef.c" "D:/programming/JETBRAINS/CLion/ChamEngine/cmake-build-debug/CMakeFiles/ChamEngine.dir/Engine/Input/InputHandlerDef.c.obj"
   "D:/programming/JETBRAINS/CLion/ChamEngine/main.c" "D:/programming/JETBRAINS/CLion/ChamEngine/cmake-build-debug/CMakeFiles/ChamEngine.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

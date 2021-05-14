@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <SDL.h>
 
-#include "Engine/InputHandler.h"
+#include "Engine/Input/InputHandler.h"
+#include "Engine/GameObject/GameObject.h"
 
-#define WIDTH 1920
-#define HEIGHT 1055
-#define FULLSCREEN 1
+#define WIDTH 192
+#define HEIGHT 155
+#define FULLSCREEN 0
 
 int main(int argc, char* args[]) {
 
@@ -17,6 +18,7 @@ int main(int argc, char* args[]) {
     win = SDL_CreateWindow("Cham Engine", 0,25, WIDTH, HEIGHT, 0);
     SDL_SetWindowFullscreen(win, FULLSCREEN);
     renderer = SDL_CreateRenderer(win, -1, SDL_RENDERER_ACCELERATED);
+    setRenderer(&renderer);
 
     int Engine_isRunning = 1;
     while(Engine_isRunning){

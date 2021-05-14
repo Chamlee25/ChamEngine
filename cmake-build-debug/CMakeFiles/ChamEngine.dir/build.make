@@ -89,35 +89,51 @@ CMakeFiles/ChamEngine.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ChamEngine.dir/main.c.s"
 	D:\Instal\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\programming\JETBRAINS\CLion\ChamEngine\main.c -o CMakeFiles\ChamEngine.dir\main.c.s
 
-CMakeFiles/ChamEngine.dir/Engine/InputHandlerDef.c.obj: CMakeFiles/ChamEngine.dir/flags.make
-CMakeFiles/ChamEngine.dir/Engine/InputHandlerDef.c.obj: CMakeFiles/ChamEngine.dir/includes_C.rsp
-CMakeFiles/ChamEngine.dir/Engine/InputHandlerDef.c.obj: ../Engine/InputHandlerDef.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\programming\JETBRAINS\CLion\ChamEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ChamEngine.dir/Engine/InputHandlerDef.c.obj"
-	D:\Instal\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ChamEngine.dir\Engine\InputHandlerDef.c.obj -c D:\programming\JETBRAINS\CLion\ChamEngine\Engine\InputHandlerDef.c
+CMakeFiles/ChamEngine.dir/Engine/Input/InputHandlerDef.c.obj: CMakeFiles/ChamEngine.dir/flags.make
+CMakeFiles/ChamEngine.dir/Engine/Input/InputHandlerDef.c.obj: CMakeFiles/ChamEngine.dir/includes_C.rsp
+CMakeFiles/ChamEngine.dir/Engine/Input/InputHandlerDef.c.obj: ../Engine/Input/InputHandlerDef.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\programming\JETBRAINS\CLion\ChamEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/ChamEngine.dir/Engine/Input/InputHandlerDef.c.obj"
+	D:\Instal\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ChamEngine.dir\Engine\Input\InputHandlerDef.c.obj -c D:\programming\JETBRAINS\CLion\ChamEngine\Engine\Input\InputHandlerDef.c
 
-CMakeFiles/ChamEngine.dir/Engine/InputHandlerDef.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ChamEngine.dir/Engine/InputHandlerDef.c.i"
-	D:\Instal\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\programming\JETBRAINS\CLion\ChamEngine\Engine\InputHandlerDef.c > CMakeFiles\ChamEngine.dir\Engine\InputHandlerDef.c.i
+CMakeFiles/ChamEngine.dir/Engine/Input/InputHandlerDef.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ChamEngine.dir/Engine/Input/InputHandlerDef.c.i"
+	D:\Instal\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\programming\JETBRAINS\CLion\ChamEngine\Engine\Input\InputHandlerDef.c > CMakeFiles\ChamEngine.dir\Engine\Input\InputHandlerDef.c.i
 
-CMakeFiles/ChamEngine.dir/Engine/InputHandlerDef.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ChamEngine.dir/Engine/InputHandlerDef.c.s"
-	D:\Instal\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\programming\JETBRAINS\CLion\ChamEngine\Engine\InputHandlerDef.c -o CMakeFiles\ChamEngine.dir\Engine\InputHandlerDef.c.s
+CMakeFiles/ChamEngine.dir/Engine/Input/InputHandlerDef.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ChamEngine.dir/Engine/Input/InputHandlerDef.c.s"
+	D:\Instal\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\programming\JETBRAINS\CLion\ChamEngine\Engine\Input\InputHandlerDef.c -o CMakeFiles\ChamEngine.dir\Engine\Input\InputHandlerDef.c.s
+
+CMakeFiles/ChamEngine.dir/Engine/GameObject/GameObjectDef.c.obj: CMakeFiles/ChamEngine.dir/flags.make
+CMakeFiles/ChamEngine.dir/Engine/GameObject/GameObjectDef.c.obj: CMakeFiles/ChamEngine.dir/includes_C.rsp
+CMakeFiles/ChamEngine.dir/Engine/GameObject/GameObjectDef.c.obj: ../Engine/GameObject/GameObjectDef.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\programming\JETBRAINS\CLion\ChamEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ChamEngine.dir/Engine/GameObject/GameObjectDef.c.obj"
+	D:\Instal\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\ChamEngine.dir\Engine\GameObject\GameObjectDef.c.obj -c D:\programming\JETBRAINS\CLion\ChamEngine\Engine\GameObject\GameObjectDef.c
+
+CMakeFiles/ChamEngine.dir/Engine/GameObject/GameObjectDef.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ChamEngine.dir/Engine/GameObject/GameObjectDef.c.i"
+	D:\Instal\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\programming\JETBRAINS\CLion\ChamEngine\Engine\GameObject\GameObjectDef.c > CMakeFiles\ChamEngine.dir\Engine\GameObject\GameObjectDef.c.i
+
+CMakeFiles/ChamEngine.dir/Engine/GameObject/GameObjectDef.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ChamEngine.dir/Engine/GameObject/GameObjectDef.c.s"
+	D:\Instal\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\programming\JETBRAINS\CLion\ChamEngine\Engine\GameObject\GameObjectDef.c -o CMakeFiles\ChamEngine.dir\Engine\GameObject\GameObjectDef.c.s
 
 # Object files for target ChamEngine
 ChamEngine_OBJECTS = \
 "CMakeFiles/ChamEngine.dir/main.c.obj" \
-"CMakeFiles/ChamEngine.dir/Engine/InputHandlerDef.c.obj"
+"CMakeFiles/ChamEngine.dir/Engine/Input/InputHandlerDef.c.obj" \
+"CMakeFiles/ChamEngine.dir/Engine/GameObject/GameObjectDef.c.obj"
 
 # External object files for target ChamEngine
 ChamEngine_EXTERNAL_OBJECTS =
 
 ChamEngine.exe: CMakeFiles/ChamEngine.dir/main.c.obj
-ChamEngine.exe: CMakeFiles/ChamEngine.dir/Engine/InputHandlerDef.c.obj
+ChamEngine.exe: CMakeFiles/ChamEngine.dir/Engine/Input/InputHandlerDef.c.obj
+ChamEngine.exe: CMakeFiles/ChamEngine.dir/Engine/GameObject/GameObjectDef.c.obj
 ChamEngine.exe: CMakeFiles/ChamEngine.dir/build.make
 ChamEngine.exe: CMakeFiles/ChamEngine.dir/linklibs.rsp
 ChamEngine.exe: CMakeFiles/ChamEngine.dir/objects1.rsp
 ChamEngine.exe: CMakeFiles/ChamEngine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\programming\JETBRAINS\CLion\ChamEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable ChamEngine.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\programming\JETBRAINS\CLion\ChamEngine\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable ChamEngine.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ChamEngine.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

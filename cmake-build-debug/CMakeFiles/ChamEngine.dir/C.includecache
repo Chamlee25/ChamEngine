@@ -648,21 +648,25 @@ D:/programming/C_libraries/sdl_mingw/include/begin_code.h
 
 D:/programming/C_libraries/sdl_mingw/include/close_code.h
 
-D:/programming/JETBRAINS/CLion/ChamEngine/Engine/InputHandler.h
-SDL_events.h
-D:/programming/JETBRAINS/CLion/ChamEngine/Engine/SDL_events.h
+D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/GameObject.h
+sdl_render.h
+D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/sdl_render.h
+Transform/Transform.h
+D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/Transform/Transform.h
 
-D:/programming/JETBRAINS/CLion/ChamEngine/Engine/InputHandlerDef.c
-stdio.h
--
-InputHandler.h
-D:/programming/JETBRAINS/CLion/ChamEngine/Engine/InputHandler.h
+D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/Transform/Transform.h
+
+D:/programming/JETBRAINS/CLion/ChamEngine/Engine/Input/InputHandler.h
+SDL_events.h
+D:/programming/JETBRAINS/CLion/ChamEngine/Engine/Input/SDL_events.h
 
 D:/programming/JETBRAINS/CLion/ChamEngine/main.c
 stdio.h
 -
 SDL.h
 -
-Engine/InputHandler.h
-D:/programming/JETBRAINS/CLion/ChamEngine/Engine/InputHandler.h
+Engine/Input/InputHandler.h
+D:/programming/JETBRAINS/CLion/ChamEngine/Engine/Input/InputHandler.h
+Engine/GameObject/GameObject.h
+D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/GameObject.h
 
