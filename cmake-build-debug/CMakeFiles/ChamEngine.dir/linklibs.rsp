@@ -1,0 +1,1 @@
+  -LD:/programming/C_libraries/sdl2_image/x86_64-w64-mingw32/lib  -LD:/programming/C_libraries/sdl_mingw/lib/x64  -lSDL2main -lSDL2_image -lSDL2 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
