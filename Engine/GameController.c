@@ -9,7 +9,7 @@ void Setup(){
     struct GameObject g;
     setPosition(0,0,&g.p);
     setScale(100,100,&g.s);
-    create_GameObject(&g,"Engine/Assets/mapa.png",g.p,g.s);
+    create_GameObject(&g,"GameObject/Assets/mapa.png",g.p,g.s);
 }
 
 
