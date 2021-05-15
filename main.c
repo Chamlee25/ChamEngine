@@ -3,6 +3,7 @@
 
 #include "Engine/Input/InputHandler.h"
 #include "Engine/GameObject/GameObject.h"
+#include "Engine/ChamEngine.h"
 
 #define WIDTH 192
 #define HEIGHT 155
@@ -20,10 +21,14 @@ int main(int argc, char* args[]) {
     renderer = SDL_CreateRenderer(win, -1, SDL_RENDERER_ACCELERATED);
     setRenderer(&renderer);
 
+
+    Setup();
+
     int Engine_isRunning = 1;
     while(Engine_isRunning){
         SDL_Event e;
         handleInput(&Engine_isRunning, &e);
+        Update();
         if(SDL_PollEvent(&e)){
             if(e.type == SDL_QUIT)
                 break;

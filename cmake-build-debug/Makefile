@@ -141,6 +141,33 @@ ChamEngine/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ChamEngine.dir\build.make CMakeFiles/ChamEngine.dir/build
 .PHONY : ChamEngine/fast
 
+Engine/GameController.obj: Engine/GameController.c.obj
+
+.PHONY : Engine/GameController.obj
+
+# target to build an object file
+Engine/GameController.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ChamEngine.dir\build.make CMakeFiles/ChamEngine.dir/Engine/GameController.c.obj
+.PHONY : Engine/GameController.c.obj
+
+Engine/GameController.i: Engine/GameController.c.i
+
+.PHONY : Engine/GameController.i
+
+# target to preprocess a source file
+Engine/GameController.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ChamEngine.dir\build.make CMakeFiles/ChamEngine.dir/Engine/GameController.c.i
+.PHONY : Engine/GameController.c.i
+
+Engine/GameController.s: Engine/GameController.c.s
+
+.PHONY : Engine/GameController.s
+
+# target to generate assembly for a file
+Engine/GameController.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ChamEngine.dir\build.make CMakeFiles/ChamEngine.dir/Engine/GameController.c.s
+.PHONY : Engine/GameController.c.s
+
 Engine/GameObject/GameObjectDef.obj: Engine/GameObject/GameObjectDef.c.obj
 
 .PHONY : Engine/GameObject/GameObjectDef.obj
@@ -167,33 +194,6 @@ Engine/GameObject/GameObjectDef.s: Engine/GameObject/GameObjectDef.c.s
 Engine/GameObject/GameObjectDef.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ChamEngine.dir\build.make CMakeFiles/ChamEngine.dir/Engine/GameObject/GameObjectDef.c.s
 .PHONY : Engine/GameObject/GameObjectDef.c.s
-
-Engine/Input/InputHandlerDef.obj: Engine/Input/InputHandlerDef.c.obj
-
-.PHONY : Engine/Input/InputHandlerDef.obj
-
-# target to build an object file
-Engine/Input/InputHandlerDef.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ChamEngine.dir\build.make CMakeFiles/ChamEngine.dir/Engine/Input/InputHandlerDef.c.obj
-.PHONY : Engine/Input/InputHandlerDef.c.obj
-
-Engine/Input/InputHandlerDef.i: Engine/Input/InputHandlerDef.c.i
-
-.PHONY : Engine/Input/InputHandlerDef.i
-
-# target to preprocess a source file
-Engine/Input/InputHandlerDef.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ChamEngine.dir\build.make CMakeFiles/ChamEngine.dir/Engine/Input/InputHandlerDef.c.i
-.PHONY : Engine/Input/InputHandlerDef.c.i
-
-Engine/Input/InputHandlerDef.s: Engine/Input/InputHandlerDef.c.s
-
-.PHONY : Engine/Input/InputHandlerDef.s
-
-# target to generate assembly for a file
-Engine/Input/InputHandlerDef.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\ChamEngine.dir\build.make CMakeFiles/ChamEngine.dir/Engine/Input/InputHandlerDef.c.s
-.PHONY : Engine/Input/InputHandlerDef.c.s
 
 main.obj: main.c.obj
 
@@ -231,12 +231,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ChamEngine
+	@echo ... Engine/GameController.obj
+	@echo ... Engine/GameController.i
+	@echo ... Engine/GameController.s
 	@echo ... Engine/GameObject/GameObjectDef.obj
 	@echo ... Engine/GameObject/GameObjectDef.i
 	@echo ... Engine/GameObject/GameObjectDef.s
-	@echo ... Engine/Input/InputHandlerDef.obj
-	@echo ... Engine/Input/InputHandlerDef.i
-	@echo ... Engine/Input/InputHandlerDef.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

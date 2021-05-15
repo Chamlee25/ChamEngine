@@ -78,6 +78,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/programming/JETBRAINS/CLion/ChamEngine/Engine/ChamEngine.h">
+			<Option target="ChamEngine"/>
+		</Unit>
+		<Unit filename="D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameController.c">
+			<Option target="ChamEngine"/>
+		</Unit>
 		<Unit filename="D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/GameObject.h">
 			<Option target="ChamEngine"/>
 		</Unit>
@@ -88,9 +94,6 @@
 			<Option target="ChamEngine"/>
 		</Unit>
 		<Unit filename="D:/programming/JETBRAINS/CLion/ChamEngine/Engine/Input/InputHandler.h">
-			<Option target="ChamEngine"/>
-		</Unit>
-		<Unit filename="D:/programming/JETBRAINS/CLion/ChamEngine/Engine/Input/InputHandlerDef.c">
 			<Option target="ChamEngine"/>
 		</Unit>
 		<Unit filename="D:/programming/JETBRAINS/CLion/ChamEngine/main.c">
