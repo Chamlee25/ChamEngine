@@ -18,6 +18,6 @@ link_directories(${SDL2_LIB_DIR})
 
 
 
-add_executable(ChamEngine main.c Engine/Input/InputHandler.h Engine/GameObject/GameObject.h Engine/GameObject/Transform/Transform.h Engine/GameObject/GameObjectDef.c Engine/ChamEngine.h Engine/GameController.c)
+add_executable(ChamEngine main.c Engine/Input/InputHandler.h Engine/GameObject/GameObject.h Engine/GameObject/Transform/Transform.h Engine/GameObject/GameObjectDef.c Engine/ChamEngine.h Engine/GameController.c Engine/GameObject/Transform/TranformDef.c Engine/GameObject/Transform/Window.h)
 
 target_link_libraries(${PROJECT_NAME} SDL2main SDL2_image SDL2)

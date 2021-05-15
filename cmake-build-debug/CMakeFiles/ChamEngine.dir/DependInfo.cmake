@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameController.c" "D:/programming/JETBRAINS/CLion/ChamEngine/cmake-build-debug/CMakeFiles/ChamEngine.dir/Engine/GameController.c.obj"
   "D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/GameObjectDef.c" "D:/programming/JETBRAINS/CLion/ChamEngine/cmake-build-debug/CMakeFiles/ChamEngine.dir/Engine/GameObject/GameObjectDef.c.obj"
+  "D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/Transform/TranformDef.c" "D:/programming/JETBRAINS/CLion/ChamEngine/cmake-build-debug/CMakeFiles/ChamEngine.dir/Engine/GameObject/Transform/TranformDef.c.obj"
   "D:/programming/JETBRAINS/CLion/ChamEngine/main.c" "D:/programming/JETBRAINS/CLion/ChamEngine/cmake-build-debug/CMakeFiles/ChamEngine.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")

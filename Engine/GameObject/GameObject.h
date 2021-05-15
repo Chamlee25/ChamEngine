@@ -15,7 +15,7 @@ typedef struct GameObject{
     struct Scale s;
 };
 
-void create_GameObject(char PicturePath[100], char Name[], struct Position p, struct Scale s);
+void create_GameObject(struct GameObject *g, char PicturePath[100], struct Position p, struct Scale s);
 
 void setRenderer(SDL_Renderer **renderer);
 

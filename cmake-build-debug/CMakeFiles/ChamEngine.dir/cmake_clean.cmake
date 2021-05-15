@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ChamEngine.dir/Engine/GameController.c.obj"
   "CMakeFiles/ChamEngine.dir/Engine/GameObject/GameObjectDef.c.obj"
+  "CMakeFiles/ChamEngine.dir/Engine/GameObject/Transform/TranformDef.c.obj"
   "CMakeFiles/ChamEngine.dir/main.c.obj"
   "ChamEngine.exe"
   "ChamEngine.exe.manifest"

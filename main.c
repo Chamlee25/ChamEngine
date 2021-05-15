@@ -5,9 +5,7 @@
 #include "Engine/GameObject/GameObject.h"
 #include "Engine/ChamEngine.h"
 
-#define WIDTH 192
-#define HEIGHT 155
-#define FULLSCREEN 0
+
 
 int main(int argc, char* args[]) {
 
@@ -33,6 +31,10 @@ int main(int argc, char* args[]) {
             if(e.type == SDL_QUIT)
                 break;
         }
+
+        SDL_RenderPresent(renderer);
+
+
     }
     return 0;
 }

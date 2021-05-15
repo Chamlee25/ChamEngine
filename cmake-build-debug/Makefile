@@ -195,6 +195,33 @@ Engine/GameObject/GameObjectDef.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ChamEngine.dir\build.make CMakeFiles/ChamEngine.dir/Engine/GameObject/GameObjectDef.c.s
 .PHONY : Engine/GameObject/GameObjectDef.c.s
 
+Engine/GameObject/Transform/TranformDef.obj: Engine/GameObject/Transform/TranformDef.c.obj
+
+.PHONY : Engine/GameObject/Transform/TranformDef.obj
+
+# target to build an object file
+Engine/GameObject/Transform/TranformDef.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ChamEngine.dir\build.make CMakeFiles/ChamEngine.dir/Engine/GameObject/Transform/TranformDef.c.obj
+.PHONY : Engine/GameObject/Transform/TranformDef.c.obj
+
+Engine/GameObject/Transform/TranformDef.i: Engine/GameObject/Transform/TranformDef.c.i
+
+.PHONY : Engine/GameObject/Transform/TranformDef.i
+
+# target to preprocess a source file
+Engine/GameObject/Transform/TranformDef.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ChamEngine.dir\build.make CMakeFiles/ChamEngine.dir/Engine/GameObject/Transform/TranformDef.c.i
+.PHONY : Engine/GameObject/Transform/TranformDef.c.i
+
+Engine/GameObject/Transform/TranformDef.s: Engine/GameObject/Transform/TranformDef.c.s
+
+.PHONY : Engine/GameObject/Transform/TranformDef.s
+
+# target to generate assembly for a file
+Engine/GameObject/Transform/TranformDef.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ChamEngine.dir\build.make CMakeFiles/ChamEngine.dir/Engine/GameObject/Transform/TranformDef.c.s
+.PHONY : Engine/GameObject/Transform/TranformDef.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -237,6 +264,9 @@ help:
 	@echo ... Engine/GameObject/GameObjectDef.obj
 	@echo ... Engine/GameObject/GameObjectDef.i
 	@echo ... Engine/GameObject/GameObjectDef.s
+	@echo ... Engine/GameObject/Transform/TranformDef.obj
+	@echo ... Engine/GameObject/Transform/TranformDef.i
+	@echo ... Engine/GameObject/Transform/TranformDef.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

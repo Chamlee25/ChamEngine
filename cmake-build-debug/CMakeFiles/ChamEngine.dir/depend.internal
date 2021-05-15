@@ -31,25 +31,76 @@ CMakeFiles/ChamEngine.dir/Engine/GameController.c.obj
  D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameController.c
  D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/GameObject.h
  D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/Transform/Transform.h
+ D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/Transform/Window.h
  D:/programming/JETBRAINS/CLion/ChamEngine/Engine/Input/InputHandler.h
 CMakeFiles/ChamEngine.dir/Engine/GameObject/GameObjectDef.c.obj
+ D:/programming/C_libraries/sdl2_image/x86_64-w64-mingw32/include/SDL2/SDL_image.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_assert.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_atomic.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_audio.h
  D:/programming/C_libraries/sdl_mingw/include/SDL_blendmode.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_clipboard.h
  D:/programming/C_libraries/sdl_mingw/include/SDL_config.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_cpuinfo.h
  D:/programming/C_libraries/sdl_mingw/include/SDL_endian.h
  D:/programming/C_libraries/sdl_mingw/include/SDL_error.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_events.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_filesystem.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_gamecontroller.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_gesture.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_haptic.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_hints.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_joystick.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_keyboard.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_keycode.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_loadso.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_locale.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_log.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_main.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_messagebox.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_metal.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_misc.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_mouse.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_mutex.h
  D:/programming/C_libraries/sdl_mingw/include/SDL_pixels.h
  D:/programming/C_libraries/sdl_mingw/include/SDL_platform.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_power.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_quit.h
  D:/programming/C_libraries/sdl_mingw/include/SDL_rect.h
  D:/programming/C_libraries/sdl_mingw/include/SDL_render.h
  D:/programming/C_libraries/sdl_mingw/include/SDL_rwops.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_scancode.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_sensor.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_shape.h
  D:/programming/C_libraries/sdl_mingw/include/SDL_stdinc.h
  D:/programming/C_libraries/sdl_mingw/include/SDL_surface.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_system.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_thread.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_timer.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_touch.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_version.h
  D:/programming/C_libraries/sdl_mingw/include/SDL_video.h
  D:/programming/C_libraries/sdl_mingw/include/begin_code.h
  D:/programming/C_libraries/sdl_mingw/include/close_code.h
  D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/GameObject.h
  D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/GameObjectDef.c
  D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/Transform/Transform.h
+ D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/Transform/Window.h
+CMakeFiles/ChamEngine.dir/Engine/GameObject/Transform/TranformDef.c.obj
+ D:/programming/C_libraries/sdl_mingw/include/SDL_config.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_endian.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_error.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_pixels.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_platform.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_rect.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_rwops.h
+ D:/programming/C_libraries/sdl_mingw/include/SDL_stdinc.h
+ D:/programming/C_libraries/sdl_mingw/include/begin_code.h
+ D:/programming/C_libraries/sdl_mingw/include/close_code.h
+ D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/Transform/TranformDef.c
+ D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/Transform/Transform.h
+ D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/Transform/Window.h
 CMakeFiles/ChamEngine.dir/main.c.obj
  D:/programming/C_libraries/sdl_mingw/include/SDL.h
  D:/programming/C_libraries/sdl_mingw/include/SDL_assert.h
@@ -102,5 +153,6 @@ CMakeFiles/ChamEngine.dir/main.c.obj
  D:/programming/JETBRAINS/CLion/ChamEngine/Engine/ChamEngine.h
  D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/GameObject.h
  D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/Transform/Transform.h
+ D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/Transform/Window.h
  D:/programming/JETBRAINS/CLion/ChamEngine/Engine/Input/InputHandler.h
  D:/programming/JETBRAINS/CLion/ChamEngine/main.c

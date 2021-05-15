@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+D:/programming/C_libraries/sdl2_image/x86_64-w64-mingw32/include/SDL2/SDL_image.h
+SDL.h
+D:/programming/C_libraries/sdl2_image/x86_64-w64-mingw32/include/SDL2/SDL.h
+SDL_version.h
+D:/programming/C_libraries/sdl2_image/x86_64-w64-mingw32/include/SDL2/SDL_version.h
+begin_code.h
+D:/programming/C_libraries/sdl2_image/x86_64-w64-mingw32/include/SDL2/begin_code.h
+close_code.h
+D:/programming/C_libraries/sdl2_image/x86_64-w64-mingw32/include/SDL2/close_code.h
+
 D:/programming/C_libraries/sdl_mingw/include/SDL.h
 SDL_main.h
 D:/programming/C_libraries/sdl_mingw/include/SDL_main.h
@@ -655,6 +665,8 @@ Input/InputHandler.h
 D:/programming/JETBRAINS/CLion/ChamEngine/Engine/Input/InputHandler.h
 
 D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameController.c
+stdio.h
+-
 ChamEngine.h
 D:/programming/JETBRAINS/CLion/ChamEngine/Engine/ChamEngine.h
 
@@ -665,10 +677,26 @@ Transform/Transform.h
 D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/Transform/Transform.h
 
 D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/GameObjectDef.c
+stdio.h
+-
+SDL_image.h
+-
+SDL.h
+-
 GameObject.h
 D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/GameObject.h
 
+D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/Transform/TranformDef.c
+SDL_rect.h
+-
+Transform.h
 D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/Transform/Transform.h
+
+D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/Transform/Transform.h
+Window.h
+D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/Transform/Window.h
+
+D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/Transform/Window.h
 
 D:/programming/JETBRAINS/CLion/ChamEngine/Engine/Input/InputHandler.h
 SDL_events.h
