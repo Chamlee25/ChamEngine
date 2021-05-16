@@ -9,9 +9,14 @@ void Setup(){
 
     struct GameObject g;
     setPosition(0,0,&g.p);
-    setScale(100,100,&g.s);
+    setScale(WIDTH,HEIGHT,&g.s);
     create_GameObject(&g,"Assets/mapa.png",g.p,g.s);
 
+
+    struct GameObject go;
+    setPosition(0,0,&go.p);
+    setScale(100,100,&go.s);
+    create_GameObject(&go,"Assets/mapa.png",go.p,go.s);
 
 }
 

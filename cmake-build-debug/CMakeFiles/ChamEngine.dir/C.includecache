@@ -666,6 +666,12 @@ D:/programming/JETBRAINS/CLion/ChamEngine/Engine/Input/InputHandler.h
 SDL_image.h
 -
 
+D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameController.c
+stdio.h
+-
+ChamEngine.h
+D:/programming/JETBRAINS/CLion/ChamEngine/Engine/ChamEngine.h
+
 D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/GameObject.h
 sdl_render.h
 D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/sdl_render.h
@@ -681,16 +687,4 @@ D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/Transform/Window.h
 D:/programming/JETBRAINS/CLion/ChamEngine/Engine/Input/InputHandler.h
 SDL_events.h
 D:/programming/JETBRAINS/CLion/ChamEngine/Engine/Input/SDL_events.h
-
-D:/programming/JETBRAINS/CLion/ChamEngine/main.c
-stdio.h
--
-SDL.h
--
-Engine/Input/InputHandler.h
-D:/programming/JETBRAINS/CLion/ChamEngine/Engine/Input/InputHandler.h
-Engine/GameObject/GameObject.h
-D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/GameObject.h
-Engine/ChamEngine.h
-D:/programming/JETBRAINS/CLion/ChamEngine/Engine/ChamEngine.h
 
