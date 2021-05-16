@@ -19,7 +19,13 @@ int main(int argc, char* args[]) {
     renderer = SDL_CreateRenderer(win, -1, SDL_RENDERER_ACCELERATED);
 
 
+    target_tex = NULL;
+    SDL_SetRenderTarget(renderer, target_tex);
+
+    //setup for gameEngine
     Setup();
+    renderObjects();
+    SDL_RenderPresent(renderer);
 
 
     int Engine_isRunning = 1;
@@ -32,7 +38,11 @@ int main(int argc, char* args[]) {
                 break;
         }
 
+        SDL_RenderClear(renderer);
+        renderObjects();
+        SDL_RenderCopy(renderer, target_tex, NULL, NULL);
         SDL_RenderPresent(renderer);
+
 
 
     }

@@ -7,16 +7,17 @@
 
 void Setup(){
 
-    struct GameObject g;
-    setPosition(0,0,&g.p);
-    setScale(WIDTH,HEIGHT,&g.s);
-    create_GameObject(&g,"Assets/mapa.png",g.p,g.s);
+    struct GameObject mapa;
+    setPosition(0,0,&mapa.p);
+    setScale(WIDTH,HEIGHT,&mapa.s);
+    create_GameObject(&mapa,"Assets/mapa.png",mapa.p,mapa.s);
+
+    struct GameObject m;
+    setPosition(50,40,&mapa.p);
+    setScale(500,100,&mapa.s);
+    create_GameObject(&mapa,"Assets/mapa.png",mapa.p,mapa.s);
 
 
-    struct GameObject go;
-    setPosition(0,0,&go.p);
-    setScale(100,100,&go.s);
-    create_GameObject(&go,"Assets/mapa.png",go.p,go.s);
 
 }
 

@@ -13,12 +13,15 @@ typedef struct Position{
     int y;
 };
 
-void setBounds(int X_position, int Y_position, int width, int height, SDL_Rect *rect);
-
 typedef struct Scale{
     int width;
     int height;
 };
+
+void setBounds(int X_position, int Y_position, int width, int height, SDL_Rect *rect);
+void setBoundsfromTransform(struct Position p, struct Scale s, SDL_Rect *rect);
+
+
 
 void setPosition(int x, int y, struct Position *p);
 

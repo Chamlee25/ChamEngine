@@ -10,6 +10,7 @@
 #include "Transform/Transform.h"
 
 SDL_Renderer *renderer;
+SDL_Texture *target_tex;
 
 typedef struct GameObject{
     char PicturePath[100];
@@ -17,9 +18,16 @@ typedef struct GameObject{
     struct Scale s;
 };
 
+typedef struct RenderDataForObject{
+    SDL_Texture *tex;
+    struct Scale scale;
+    struct Position position;
+
+};
+
 void create_GameObject(struct GameObject *g, char PicturePath[100], struct Position p, struct Scale s);
 
 
-
+void renderObjects();
 
 #endif //CHAMENGINE_GAMEOBJECT_H
