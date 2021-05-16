@@ -7,6 +7,7 @@
 
 #include "GameObject/GameObject.h"
 #include "Input/InputHandler.h"
+#include <SDL_image.h>
 
 
 

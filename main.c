@@ -11,16 +11,16 @@ int main(int argc, char* args[]) {
 
     //setup
     SDL_Window *win = NULL;
-    SDL_Renderer *renderer = NULL;
+
     if (SDL_Init(SDL_INIT_VIDEO) < 0)
         return 1;
     win = SDL_CreateWindow("Cham Engine", 0,25, WIDTH, HEIGHT, 0);
     SDL_SetWindowFullscreen(win, FULLSCREEN);
     renderer = SDL_CreateRenderer(win, -1, SDL_RENDERER_ACCELERATED);
-    setRenderer(&renderer);
 
 
     Setup();
+
 
     int Engine_isRunning = 1;
     while(Engine_isRunning){

@@ -7,20 +7,17 @@
 #include <SDL.h>
 #include "GameObject.h"
 
-SDL_Renderer *render = NULL;
 
 void create_GameObject(struct GameObject *g, char PicturePath[100], struct Position p, struct Scale s){
-    SDL_Texture *img;
-    img = IMG_LoadTexture(render, PicturePath);
+    SDL_Texture *img = NULL;
+    img = IMG_LoadTexture(renderer, PicturePath);
     SDL_Rect rect;
     setBounds(p.x,p.y,s.width,s.height,&rect);
 
 
 
-    SDL_RenderCopy(render, img, NULL, &rect);
+    SDL_RenderCopy(renderer, img, NULL, &rect);
 
 }
 
-void setRenderer(SDL_Renderer **renderer){
-    render = renderer;
-}
+

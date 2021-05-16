@@ -9,6 +9,8 @@
 
 #include "Transform/Transform.h"
 
+SDL_Renderer *renderer;
+
 typedef struct GameObject{
     char PicturePath[100];
     struct Position p;
@@ -17,7 +19,7 @@ typedef struct GameObject{
 
 void create_GameObject(struct GameObject *g, char PicturePath[100], struct Position p, struct Scale s);
 
-void setRenderer(SDL_Renderer **renderer);
+
 
 
 #endif //CHAMENGINE_GAMEOBJECT_H
