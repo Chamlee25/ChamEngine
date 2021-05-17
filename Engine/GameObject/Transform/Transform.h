@@ -27,4 +27,6 @@ void setPosition(int x, int y, struct Position *p);
 
 void setScale(int width, int height, struct Scale *s);
 
+
+
 #endif //CHAMENGINE_TRANSFORM_H

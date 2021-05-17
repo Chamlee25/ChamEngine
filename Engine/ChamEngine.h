@@ -14,7 +14,9 @@
 
 void Setup();
 
-void Update();
+void Update(double deltaTime);
+
+void initialize(struct GameObject *g, int x, int y, int width, int height, char path[], int ID);
 
 
 #endif //CHAMENGINE_CHAMENGINE_H

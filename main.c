@@ -27,12 +27,22 @@ int main(int argc, char* args[]) {
     renderObjects();
     SDL_RenderPresent(renderer);
 
+    Uint64 NOW = SDL_GetPerformanceCounter();
+    Uint64 LAST = 0;
+    double deltaTime = 0;
+
 
     int Engine_isRunning = 1;
     while(Engine_isRunning){
+        LAST = NOW;
+        NOW = SDL_GetPerformanceCounter();
+
+        deltaTime = (double)((NOW - LAST)*1000 / (double)SDL_GetPerformanceFrequency() );
+
+
         SDL_Event e;
         handleInput(&Engine_isRunning, &e);
-        Update();
+        Update(deltaTime);
         if(SDL_PollEvent(&e)){
             if(e.type == SDL_QUIT)
                 break;

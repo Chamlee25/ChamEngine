@@ -84,6 +84,9 @@
 		<Unit filename="D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameController.c">
 			<Option target="ChamEngine"/>
 		</Unit>
+		<Unit filename="D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/Colliders/Collider.h">
+			<Option target="ChamEngine"/>
+		</Unit>
 		<Unit filename="D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/GameObject.h">
 			<Option target="ChamEngine"/>
 		</Unit>

@@ -12,33 +12,33 @@
 struct RenderDataForObject RenderDatas[MAX_OBJECTS];
 
 
-void create_GameObject(struct GameObject *g, char PicturePath[100], struct Position p, struct Scale s){
+void create_GameObject(struct GameObject *g, char PicturePath[100], struct Position p, struct Scale s, int ID){
     SDL_Texture *img = NULL;
     img = IMG_LoadTexture(renderer, PicturePath);
-   // SDL_Rect rect;
-   // setBounds(p.x,p.y,s.width,s.height,&rect);
+    g->ID = ID;
 
-    for(int i =0; i<sizeof(RenderDatas); i++){
-        if(RenderDatas[i].tex==NULL){
-            RenderDatas[i].tex = img;
-            RenderDatas[i].scale = s;
-            RenderDatas[i].position = p;
-            break;
-        }
-    }
+
+    RenderDatas[ID].tex = img;
+    RenderDatas[ID].scale= s;
+    RenderDatas[ID].position = p;
+    RenderDatas[ID].ID = ID;
+    RenderDatas[ID].visible = 1;
 
 
 
-   // SDL_RenderCopy(renderer, img, NULL, &rect);
+
+
+
 
 }
 
 
 void renderObjects(){
     for(int i =0; i<sizeof(RenderDatas); i++){
-        if(RenderDatas[i].tex==NULL){
+        if(RenderDatas[i].tex==NULL)
             break;
-        }
+        if(RenderDatas[i].visible == Invisible)
+            continue;
         SDL_Rect rect;
         setBoundsfromTransform(RenderDatas[i].position,RenderDatas[i].scale, &rect);
         SDL_RenderCopy(renderer, RenderDatas[i].tex, NULL, &rect);
@@ -46,4 +46,47 @@ void renderObjects(){
     }
 }
 
+void changePositionTo(int x, int y, struct GameObject g){
+    g.p.x = x;
+    g.p.y = y;
+    for(int i =0; i<sizeof(RenderDatas); i++){
 
+        if(RenderDatas[i].ID == g.ID){
+
+            RenderDatas[i].position.x =x;
+            RenderDatas[i].position.y=y;
+            break;
+        }
+    }
+}
+
+
+
+
+void changeScale(int width, int height, struct GameObject g){
+    g.s.height = height;
+    g.s.width = width;
+    for(int i =0; i<sizeof(RenderDatas); i++){
+        if(RenderDatas[i].ID == g.ID){
+            RenderDatas[i].scale.height = height;
+            RenderDatas[i].scale.width = width;
+            break;
+        }
+    }
+}
+
+void initialize(struct GameObject *g, int x, int y, int width, int height, char path[], int ID){
+    setPosition(x,y,&g->p);
+    setScale(width,height,&g->s);
+    create_GameObject(g,path,g->p,g->s, ID);
+}
+
+void changeTexture(char path[], struct GameObject g){
+    SDL_Texture *texture = IMG_LoadTexture(renderer, path);
+    RenderDatas[g.ID].tex = texture;
+
+}
+
+void setVisible(int visibility, struct GameObject g){
+    RenderDatas[g.ID].visible = visibility;
+}

@@ -8,17 +8,14 @@
 #include "Transform.h"
 
 void setBounds(int X_position, int Y_position, int width, int height, SDL_Rect *rect){
-    rect->x = WIDTH/2 - X_position - width/2;
+    rect->x = WIDTH/2 + X_position - width/2;
     rect->y = HEIGHT/2 - Y_position - height/2;
     rect->w=width;
     rect->h=height;
 }
 
 void setBoundsfromTransform(struct Position p, struct Scale s, SDL_Rect *rect){
-    rect->x = WIDTH/2 - p.x - s.width/2;
-    rect->y = HEIGHT/2 - p.y - s.height/2;
-    rect->w=s.width;
-    rect->h=s.height;
+    setBounds(p.x,p.y,s.width,s.height,rect);
 }
 
 
