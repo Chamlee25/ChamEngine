@@ -672,11 +672,25 @@ stdio.h
 ChamEngine.h
 D:/programming/JETBRAINS/CLion/ChamEngine/Engine/ChamEngine.h
 
+D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/Colliders/Collider.h
+
 D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/GameObject.h
 sdl_render.h
 D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/sdl_render.h
 Transform/Transform.h
 D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/Transform/Transform.h
+Colliders/Collider.h
+D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/Colliders/Collider.h
+
+D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/GameObjectDef.c
+stdio.h
+-
+SDL_image.h
+-
+SDL.h
+-
+GameObject.h
+D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/GameObject.h
 
 D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/Transform/Transform.h
 Window.h
@@ -687,4 +701,16 @@ D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/Transform/Window.h
 D:/programming/JETBRAINS/CLion/ChamEngine/Engine/Input/InputHandler.h
 SDL_events.h
 D:/programming/JETBRAINS/CLion/ChamEngine/Engine/Input/SDL_events.h
+
+D:/programming/JETBRAINS/CLion/ChamEngine/main.c
+stdio.h
+-
+SDL.h
+-
+Engine/Input/InputHandler.h
+D:/programming/JETBRAINS/CLion/ChamEngine/Engine/Input/InputHandler.h
+Engine/GameObject/GameObject.h
+D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/GameObject.h
+Engine/ChamEngine.h
+D:/programming/JETBRAINS/CLion/ChamEngine/Engine/ChamEngine.h
 

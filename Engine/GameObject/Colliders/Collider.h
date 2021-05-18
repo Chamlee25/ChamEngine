@@ -6,9 +6,11 @@
 #define CHAMENGINE_COLLIDER_H
 
 
-struct Collider{
+typedef struct Collider{
     int width;
     int height;
 };
+
+
 
 #endif //CHAMENGINE_COLLIDER_H

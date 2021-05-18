@@ -8,6 +8,7 @@
 #include "sdl_render.h"
 
 #include "Transform/Transform.h"
+#include "Colliders/Collider.h"
 
 SDL_Renderer *renderer;
 SDL_Texture *target_tex;
@@ -17,6 +18,8 @@ typedef struct GameObject{
     struct Position p;
     struct Scale s;
     int ID;
+    struct Collider col;
+
 };
 
 typedef struct RenderDataForObject{
@@ -39,6 +42,11 @@ enum Visibility{
 };
 
 void setVisible(int visibility, struct GameObject g);
+
+
+
+
+int isColliding(struct GameObject g1, struct GameObject g2);
 
 void renderObjects();
 

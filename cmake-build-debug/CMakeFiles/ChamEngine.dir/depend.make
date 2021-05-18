@@ -52,6 +52,7 @@ CMakeFiles/ChamEngine.dir/Engine/GameController.c.obj: D:/programming/C_librarie
 CMakeFiles/ChamEngine.dir/Engine/GameController.c.obj: D:/programming/C_libraries/sdl_mingw/include/close_code.h
 CMakeFiles/ChamEngine.dir/Engine/GameController.c.obj: ../Engine/ChamEngine.h
 CMakeFiles/ChamEngine.dir/Engine/GameController.c.obj: ../Engine/GameController.c
+CMakeFiles/ChamEngine.dir/Engine/GameController.c.obj: ../Engine/GameObject/Colliders/Collider.h
 CMakeFiles/ChamEngine.dir/Engine/GameController.c.obj: ../Engine/GameObject/GameObject.h
 CMakeFiles/ChamEngine.dir/Engine/GameController.c.obj: ../Engine/GameObject/Transform/Transform.h
 CMakeFiles/ChamEngine.dir/Engine/GameController.c.obj: ../Engine/GameObject/Transform/Window.h
@@ -106,6 +107,7 @@ CMakeFiles/ChamEngine.dir/Engine/GameObject/GameObjectDef.c.obj: D:/programming/
 CMakeFiles/ChamEngine.dir/Engine/GameObject/GameObjectDef.c.obj: D:/programming/C_libraries/sdl_mingw/include/SDL_video.h
 CMakeFiles/ChamEngine.dir/Engine/GameObject/GameObjectDef.c.obj: D:/programming/C_libraries/sdl_mingw/include/begin_code.h
 CMakeFiles/ChamEngine.dir/Engine/GameObject/GameObjectDef.c.obj: D:/programming/C_libraries/sdl_mingw/include/close_code.h
+CMakeFiles/ChamEngine.dir/Engine/GameObject/GameObjectDef.c.obj: ../Engine/GameObject/Colliders/Collider.h
 CMakeFiles/ChamEngine.dir/Engine/GameObject/GameObjectDef.c.obj: ../Engine/GameObject/GameObject.h
 CMakeFiles/ChamEngine.dir/Engine/GameObject/GameObjectDef.c.obj: ../Engine/GameObject/GameObjectDef.c
 CMakeFiles/ChamEngine.dir/Engine/GameObject/GameObjectDef.c.obj: ../Engine/GameObject/Transform/Transform.h
@@ -175,6 +177,7 @@ CMakeFiles/ChamEngine.dir/main.c.obj: D:/programming/C_libraries/sdl_mingw/inclu
 CMakeFiles/ChamEngine.dir/main.c.obj: D:/programming/C_libraries/sdl_mingw/include/begin_code.h
 CMakeFiles/ChamEngine.dir/main.c.obj: D:/programming/C_libraries/sdl_mingw/include/close_code.h
 CMakeFiles/ChamEngine.dir/main.c.obj: ../Engine/ChamEngine.h
+CMakeFiles/ChamEngine.dir/main.c.obj: ../Engine/GameObject/Colliders/Collider.h
 CMakeFiles/ChamEngine.dir/main.c.obj: ../Engine/GameObject/GameObject.h
 CMakeFiles/ChamEngine.dir/main.c.obj: ../Engine/GameObject/Transform/Transform.h
 CMakeFiles/ChamEngine.dir/main.c.obj: ../Engine/GameObject/Transform/Window.h

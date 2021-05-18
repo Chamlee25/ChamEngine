@@ -16,6 +16,12 @@ void create_GameObject(struct GameObject *g, char PicturePath[100], struct Posit
     SDL_Texture *img = NULL;
     img = IMG_LoadTexture(renderer, PicturePath);
     g->ID = ID;
+    g->p = p;
+    g->s = s;
+    struct Collider col;
+    col.height = s.height;
+    col.width = s.width;
+    g->col = col;
 
 
     RenderDatas[ID].tex = img;
@@ -89,4 +95,20 @@ void changeTexture(char path[], struct GameObject g){
 
 void setVisible(int visibility, struct GameObject g){
     RenderDatas[g.ID].visible = visibility;
+}
+
+int isColliding(struct GameObject g1, struct GameObject g2){
+    if(g1.p.x == g2.p.x && g1.p.y == g2.p.y)
+        return 1;
+    int x1 = g1.p.x;
+    int x2 = g2.p.x;
+    int y1 = g1.p.y;
+    int y2 = g2.p.y;
+
+    int w1 = g1.s.width;
+    int w2 = g2.s.width;
+    int h1 = g1.s.height;
+    int h2 = g2.s.height;
+
+
 }
