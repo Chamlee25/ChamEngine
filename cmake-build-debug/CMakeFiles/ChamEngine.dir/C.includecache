@@ -666,12 +666,6 @@ D:/programming/JETBRAINS/CLion/ChamEngine/Engine/Input/InputHandler.h
 SDL_image.h
 -
 
-D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameController.c
-stdio.h
--
-ChamEngine.h
-D:/programming/JETBRAINS/CLion/ChamEngine/Engine/ChamEngine.h
-
 D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/Colliders/Collider.h
 
 D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/GameObject.h
@@ -681,16 +675,6 @@ Transform/Transform.h
 D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/Transform/Transform.h
 Colliders/Collider.h
 D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/Colliders/Collider.h
-
-D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/GameObjectDef.c
-stdio.h
--
-SDL_image.h
--
-SDL.h
--
-GameObject.h
-D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/GameObject.h
 
 D:/programming/JETBRAINS/CLion/ChamEngine/Engine/GameObject/Transform/Transform.h
 Window.h

@@ -111,4 +111,6 @@ int isColliding(struct GameObject g1, struct GameObject g2){
     int h2 = g2.s.height;
 
 
+
+
 }
