@@ -1,3 +1,0 @@
-D:/programming/JETBRAINS/CLion/ChamEngine/cmake-build-debug/CMakeFiles/ChamEngine.dir
-D:/programming/JETBRAINS/CLion/ChamEngine/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/programming/JETBRAINS/CLion/ChamEngine/cmake-build-debug/CMakeFiles/rebuild_cache.dir

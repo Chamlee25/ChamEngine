@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\ChamEngine.dir/objects.a
-D:\Instal\mingw64\bin\ar.exe cr CMakeFiles\ChamEngine.dir/objects.a @CMakeFiles\ChamEngine.dir\objects1.rsp
-D:\Instal\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\ChamEngine.dir/objects.a -Wl,--no-whole-archive -o ChamEngine.exe -Wl,--out-implib,libChamEngine.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ChamEngine.dir\linklibs.rsp
