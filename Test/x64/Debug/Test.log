@@ -1,1 +1,13 @@
-﻿  Test.vcxproj -> D:\programming\Visual_Studio\ChamEngine\x64\Debug\Test.exe
+﻿  GameController.c
+D:\programming\JETBRAINS\CLion\ChamEngine\Engine\GameObject\Transform\Transform.h(14,2): warning C4091: 'typedef ': ignored on left of 'Position' when no variable is declared
+D:\programming\JETBRAINS\CLion\ChamEngine\Engine\GameObject\Transform\Transform.h(19,2): warning C4091: 'typedef ': ignored on left of 'Scale' when no variable is declared
+D:\programming\JETBRAINS\CLion\ChamEngine\Engine\GameObject\Colliders\Collider.h(12,2): warning C4091: 'typedef ': ignored on left of 'Collider' when no variable is declared
+D:\programming\JETBRAINS\CLion\ChamEngine\Engine\GameObject\GameObject.h(23,2): warning C4091: 'typedef ': ignored on left of 'GameObject' when no variable is declared
+D:\programming\JETBRAINS\CLion\ChamEngine\Engine\GameObject\GameObject.h(32,2): warning C4091: 'typedef ': ignored on left of 'RenderDataForObject' when no variable is declared
+D:\programming\JETBRAINS\CLion\ChamEngine\Engine\GameController.c(9,30): warning C4047: '=': 'char ***' differs in levels of indirection from 'char [11]'
+D:\programming\JETBRAINS\CLion\ChamEngine\Engine\GameController.c(9,30): error C2106: '=': left operand must be l-value
+D:\programming\JETBRAINS\CLion\ChamEngine\Engine\GameController.c(29,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\programming\JETBRAINS\CLion\ChamEngine\Engine\GameController.c(60,36): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:\programming\JETBRAINS\CLion\ChamEngine\Engine\GameController.c(64,36): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+D:\programming\JETBRAINS\CLion\ChamEngine\Engine\GameController.c(68,36): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:\programming\JETBRAINS\CLion\ChamEngine\Engine\GameController.c(72,36): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data

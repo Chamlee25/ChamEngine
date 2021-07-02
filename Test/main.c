@@ -14,8 +14,13 @@ int main(int argc, char* args[]) {
 
     if (SDL_Init(SDL_INIT_VIDEO) < 0)
         return 1;
-    win = SDL_CreateWindow("Cham Engine", 0,25, WIDTH, HEIGHT, 0);
-    SDL_SetWindowFullscreen(win, FULLSCREEN);
+    
+    char GAME_NAME[30];
+    setGameName(&GAME_NAME);
+    printf(GAME_NAME);
+
+    win = SDL_CreateWindow(GAME_NAME, 0,25, WIDTH, HEIGHT, 0);
+   // SDL_SetWindowFullscreen(win, FULLSCREEN);
     renderer = SDL_CreateRenderer(win, -1, SDL_RENDERER_ACCELERATED);
 
 
