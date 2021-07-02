@@ -5,7 +5,7 @@
 #include "Engine/GameObject/GameObject.h"
 #include "Engine/ChamEngine.h"
 
-struct GAME game;
+
 
 int main(int argc, char* args[]) {
 
@@ -15,15 +15,13 @@ int main(int argc, char* args[]) {
     if (SDL_Init(SDL_INIT_VIDEO) < 0)
         return 1;
     
-    struct GAME* pGame = &game;
     
     
-    setGameName(pGame);
     
-    printf(*pGame->GAME_NAME);
-
+   
+    extern char GAME_NAME[];
     win = SDL_CreateWindow(GAME_NAME, 0,25, WIDTH, HEIGHT, 0);
-   // SDL_SetWindowFullscreen(win, FULLSCREEN);
+    SDL_SetWindowFullscreen(win, FULLSCREEN);
     renderer = SDL_CreateRenderer(win, -1, SDL_RENDERER_ACCELERATED);
 
 
