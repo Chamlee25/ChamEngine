@@ -1,0 +1,503 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.28.29913.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "D:\\Instal\\vs\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x64\\c1.dll -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x0076B1C0 -il C:\\Users\\Fanda\\AppData\\Local\\Temp\\_CL_8e918521ast -typedil -f ..\\..\\..\\JETBRAINS\\CLion\\ChamEngine\\Engine\\GameObject\\Transform\\TranformDef.c -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1928 -D_MSC_FULL_VER=192829913 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -Fox64\\Debug\\TranformDef.obj -Fdx64\\Debug\\vc142.pdb -Gd -analyze:projectdirectory D:\\programming\\Visual_Studio\\ChamEngine\\Test -analyze:rulesetdirectory ;D:\\Instal\\vs\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset D:\\Instal\\vs\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin D:\\Instal\\vs\\VC\\Tools\\MSVC\\14.28.29910\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I D:\\programming\\C_libraries\\sdl2_vs\\include -I D:\\programming\\C_libraries\\sdl2_image_vs\\include -I D:\\Instal\\vs\\VC\\Tools\\MSVC\\14.28.29910\\include -I D:\\Instal\\vs\\VC\\Tools\\MSVC\\14.28.29910\\atlmfc\\include -I D:\\Instal\\vs\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/programming/visual_studio/chamengine/test/main.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "e86f85be6438c3ffb5a88cc7c87802eb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl.h"
+          },
+          "hashes": {
+            "md5": "7ae1e2f1779df44840d755ea20d8baa8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_main.h"
+          },
+          "hashes": {
+            "md5": "afdbda186156f040faefc1ae5f68bfad"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_stdinc.h"
+          },
+          "hashes": {
+            "md5": "a9362778bb81750d122b8516d7da4934"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_config.h"
+          },
+          "hashes": {
+            "md5": "f185aace5597c3eedcfedaf253900ccc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_platform.h"
+          },
+          "hashes": {
+            "md5": "daadbad14a5a994fcf299ea3473bd9b0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/begin_code.h"
+          },
+          "hashes": {
+            "md5": "97f229f44b900effa7282810ad9ea719"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/close_code.h"
+          },
+          "hashes": {
+            "md5": "a26b8517c6ffe500410236eaac87b93a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_assert.h"
+          },
+          "hashes": {
+            "md5": "0489ce67b50a6d0e1f214decd7199541"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_atomic.h"
+          },
+          "hashes": {
+            "md5": "82dc5a0039b4b65dd8f7735cbe91b833"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_audio.h"
+          },
+          "hashes": {
+            "md5": "483da5a9134d18332cff2fca8618660d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_error.h"
+          },
+          "hashes": {
+            "md5": "563ccc75e6f72fa3764d5b91e1181456"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_endian.h"
+          },
+          "hashes": {
+            "md5": "53e31de3307792df3022709a24ecabf5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_mutex.h"
+          },
+          "hashes": {
+            "md5": "8c24782ea8a347f9fec584adc1171302"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_thread.h"
+          },
+          "hashes": {
+            "md5": "b848bc43d18afe86e0df6585983d790f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_rwops.h"
+          },
+          "hashes": {
+            "md5": "eb09d57ddb1ed83ad51b8c53d8c255a1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_clipboard.h"
+          },
+          "hashes": {
+            "md5": "d9ad479dcd3a62f3a93c29782ad6142b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_cpuinfo.h"
+          },
+          "hashes": {
+            "md5": "2949baef67ed58c87c42aaed6b25ddab"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_events.h"
+          },
+          "hashes": {
+            "md5": "117fca64224db155a9476e1ba77f66e9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_video.h"
+          },
+          "hashes": {
+            "md5": "8cb3c84a69765d8e89bad9f1a5a9f188"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_pixels.h"
+          },
+          "hashes": {
+            "md5": "acb19d0fa0dc40c741034944580b5c9f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_rect.h"
+          },
+          "hashes": {
+            "md5": "0f5d610ff61bcf04cb3f8043e0c812f9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_surface.h"
+          },
+          "hashes": {
+            "md5": "d4f98e8b85c8ffb6f674756d58f466b9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_blendmode.h"
+          },
+          "hashes": {
+            "md5": "9f669f794d1edaa13e5716949042767e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_keyboard.h"
+          },
+          "hashes": {
+            "md5": "5d31d71379cf4c5e3651e14dd14fb28e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_keycode.h"
+          },
+          "hashes": {
+            "md5": "838c5db2e8c43351ab6c708e825a6e18"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_scancode.h"
+          },
+          "hashes": {
+            "md5": "ac1050d9a662e048d5be912b8a845eb4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_mouse.h"
+          },
+          "hashes": {
+            "md5": "21305b1f7839ce06b76a131894b12539"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_joystick.h"
+          },
+          "hashes": {
+            "md5": "187686afc7c5336751de43eb4278786b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_gamecontroller.h"
+          },
+          "hashes": {
+            "md5": "b37c688ba147d0d82a2d3267af57125d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_sensor.h"
+          },
+          "hashes": {
+            "md5": "939972405e0293829c83961883693c57"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_quit.h"
+          },
+          "hashes": {
+            "md5": "4e03d1dc5a31794bf999dfd68f837628"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_gesture.h"
+          },
+          "hashes": {
+            "md5": "e1e05cf8014469b6b85e517bceccc206"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_touch.h"
+          },
+          "hashes": {
+            "md5": "ddfe8f37070da7c6e35d6447cfeef77c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_filesystem.h"
+          },
+          "hashes": {
+            "md5": "32a57ba496923362039bc053707f4ba4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_haptic.h"
+          },
+          "hashes": {
+            "md5": "491646ea936444e825696f1661eed88b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_hints.h"
+          },
+          "hashes": {
+            "md5": "79eeff619cf499d76d54411cc3bda87b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_loadso.h"
+          },
+          "hashes": {
+            "md5": "3c938a938b768e38cf003cfab384af93"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_log.h"
+          },
+          "hashes": {
+            "md5": "7a00df013729823205665f8a4e8fc892"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_messagebox.h"
+          },
+          "hashes": {
+            "md5": "fa3310371657ed78aeae08ba510d16f5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_metal.h"
+          },
+          "hashes": {
+            "md5": "17f20722d650d6d6032fdf15fec51fd8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_power.h"
+          },
+          "hashes": {
+            "md5": "4cc4f1ee5395a39b926f809fbaccd698"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_render.h"
+          },
+          "hashes": {
+            "md5": "33a466fc1b2bfa8648a93099b8af0874"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_shape.h"
+          },
+          "hashes": {
+            "md5": "3061096cc46a8bc80dcea26a303f7e61"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_system.h"
+          },
+          "hashes": {
+            "md5": "c532eaaa9a5b3114e25bfc24c69815c3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_timer.h"
+          },
+          "hashes": {
+            "md5": "53f9d522af76ed8fedea6eaf8a496f12"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_version.h"
+          },
+          "hashes": {
+            "md5": "1f0d10bbd8ab986c1d2ae4744cf4b980"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_locale.h"
+          },
+          "hashes": {
+            "md5": "b3373d355b210a73157c63bfb3ef1001"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_vs/include/sdl_misc.h"
+          },
+          "hashes": {
+            "md5": "6a37f7338ba912e27d1b0ba63f8641b8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/visual_studio/chamengine/test/engine/input/inputhandler.h"
+          },
+          "hashes": {
+            "md5": "4f0e1c63ca1c86805d7f02558004ef87"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/visual_studio/chamengine/test/engine/gameobject/gameobject.h"
+          },
+          "hashes": {
+            "md5": "fd11f5c81c49f6b4dd5239bcb90a95aa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/visual_studio/chamengine/test/engine/gameobject/transform/transform.h"
+          },
+          "hashes": {
+            "md5": "f0a69d158d975a055bb77305cf6b9059"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/visual_studio/chamengine/test/engine/gameobject/transform/window.h"
+          },
+          "hashes": {
+            "md5": "be9cda1550227ea3c85c2ccccd81ee88"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/visual_studio/chamengine/test/engine/gameobject/colliders/collider.h"
+          },
+          "hashes": {
+            "md5": "dc2e44407c7a1cfdf168a141d796b011"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/visual_studio/chamengine/test/engine/chamengine.h"
+          },
+          "hashes": {
+            "md5": "ecc9a1a678dc917420a426b654f0d9e3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/c_libraries/sdl2_image_vs/include/sdl_image.h"
+          },
+          "hashes": {
+            "md5": "3ad4ced493bf6ee900936905e0ebd218"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/jetbrains/clion/chamengine/engine/gameobject/transform/tranformdef.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "a25c7e41d9f5686e703911db95124d4d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/jetbrains/clion/chamengine/engine/gameobject/transform/transform.h"
+          },
+          "hashes": {
+            "md5": "f0a69d158d975a055bb77305cf6b9059"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/programming/jetbrains/clion/chamengine/engine/gameobject/transform/window.h"
+          },
+          "hashes": {
+            "md5": "be9cda1550227ea3c85c2ccccd81ee88"
+          }
+        }
+      ]
+    }
+  ]
+}

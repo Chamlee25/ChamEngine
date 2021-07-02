@@ -8,7 +8,7 @@
 
 
 int main(int argc, char* args[]) {
-
+    srand(time(NULL));
     //setup
     SDL_Window *win = NULL;
 

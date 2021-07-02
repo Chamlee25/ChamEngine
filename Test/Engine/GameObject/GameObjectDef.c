@@ -110,7 +110,20 @@ int isColliding(struct GameObject g1, struct GameObject g2){
     int h1 = g1.s.height;
     int h2 = g2.s.height;
 
-
-
-
+    if (
+        (
+            (x1 - w1 / 2) > (x2 + w2 / 2) ||
+            (x1 + w1 / 2) < (x2 - w2 / 2)
+            )
+        &&
+        (
+            (y1 - h1 / 2) > (y2 + h2 / 2) ||
+            (y1 + h1 / 2) < (y2 - h2 / 2)
+            )
+        )
+    {
+        return 0;
+    }
+        
+    return 1;
 }

@@ -1,23 +1,2 @@
-﻿  GameController.c
-D:\programming\JETBRAINS\CLion\ChamEngine\Engine\GameObject\Transform\Transform.h(14,2): warning C4091: 'typedef ': ignored on left of 'Position' when no variable is declared
-D:\programming\JETBRAINS\CLion\ChamEngine\Engine\GameObject\Transform\Transform.h(19,2): warning C4091: 'typedef ': ignored on left of 'Scale' when no variable is declared
-D:\programming\JETBRAINS\CLion\ChamEngine\Engine\GameObject\Colliders\Collider.h(12,2): warning C4091: 'typedef ': ignored on left of 'Collider' when no variable is declared
-D:\programming\JETBRAINS\CLion\ChamEngine\Engine\GameObject\GameObject.h(23,2): warning C4091: 'typedef ': ignored on left of 'GameObject' when no variable is declared
-D:\programming\JETBRAINS\CLion\ChamEngine\Engine\GameObject\GameObject.h(32,2): warning C4091: 'typedef ': ignored on left of 'RenderDataForObject' when no variable is declared
-D:\programming\JETBRAINS\CLion\ChamEngine\Engine\GameController.c(30,19): warning C4305: 'initializing': truncation from 'double' to 'float'
-D:\programming\JETBRAINS\CLion\ChamEngine\Engine\GameController.c(61,36): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-D:\programming\JETBRAINS\CLion\ChamEngine\Engine\GameController.c(65,36): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
-D:\programming\JETBRAINS\CLion\ChamEngine\Engine\GameController.c(69,36): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
-D:\programming\JETBRAINS\CLion\ChamEngine\Engine\GameController.c(73,36): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
-  GameObjectDef.c
-D:\programming\JETBRAINS\CLion\ChamEngine\Engine\GameObject\Transform\Transform.h(14,2): warning C4091: 'typedef ': ignored on left of 'Position' when no variable is declared
-D:\programming\JETBRAINS\CLion\ChamEngine\Engine\GameObject\Transform\Transform.h(19,2): warning C4091: 'typedef ': ignored on left of 'Scale' when no variable is declared
-D:\programming\JETBRAINS\CLion\ChamEngine\Engine\GameObject\Colliders\Collider.h(12,2): warning C4091: 'typedef ': ignored on left of 'Collider' when no variable is declared
-D:\programming\JETBRAINS\CLion\ChamEngine\Engine\GameObject\GameObject.h(23,2): warning C4091: 'typedef ': ignored on left of 'GameObject' when no variable is declared
-D:\programming\JETBRAINS\CLion\ChamEngine\Engine\GameObject\GameObject.h(32,2): warning C4091: 'typedef ': ignored on left of 'RenderDataForObject' when no variable is declared
-  TranformDef.c
-D:\programming\JETBRAINS\CLion\ChamEngine\Engine\GameObject\Transform\Transform.h(14,2): warning C4091: 'typedef ': ignored on left of 'Position' when no variable is declared
-D:\programming\JETBRAINS\CLion\ChamEngine\Engine\GameObject\Transform\Transform.h(19,2): warning C4091: 'typedef ': ignored on left of 'Scale' when no variable is declared
-  Generating Code...
-D:\programming\JETBRAINS\CLion\ChamEngine\Engine\GameObject\GameObjectDef.c(116): warning C4715: 'isColliding': not all control paths return a value
+﻿  LINK : D:\programming\Visual_Studio\ChamEngine\x64\Debug\Test.exe not found or not built by the last incremental link; performing full link
   Test.vcxproj -> D:\programming\Visual_Studio\ChamEngine\x64\Debug\Test.exe
