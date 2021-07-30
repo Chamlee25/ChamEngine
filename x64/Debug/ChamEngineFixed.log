@@ -1,0 +1,22 @@
+﻿  GameController.c
+D:\programming\Visual_Studio\ChamEngineFixed\Engine\GameObject\Transform\Transform.h(14,2): warning C4091: 'typedef ': ignored on left of 'Position' when no variable is declared
+D:\programming\Visual_Studio\ChamEngineFixed\Engine\GameObject\Transform\Transform.h(19,2): warning C4091: 'typedef ': ignored on left of 'Scale' when no variable is declared
+D:\programming\Visual_Studio\ChamEngineFixed\Engine\GameObject\Colliders\Collider.h(12,2): warning C4091: 'typedef ': ignored on left of 'Collider' when no variable is declared
+D:\programming\Visual_Studio\ChamEngineFixed\Engine\GameObject\GameObject.h(23,2): warning C4091: 'typedef ': ignored on left of 'GameObject' when no variable is declared
+D:\programming\Visual_Studio\ChamEngineFixed\Engine\GameObject\GameObject.h(32,2): warning C4091: 'typedef ': ignored on left of 'RenderDataForObject' when no variable is declared
+D:\programming\Visual_Studio\ChamEngineFixed\Engine\GameController.c(30,19): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\programming\Visual_Studio\ChamEngineFixed\Engine\GameController.c(40,34): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\programming\Visual_Studio\ChamEngineFixed\Engine\GameController.c(40,42): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+D:\programming\Visual_Studio\ChamEngineFixed\Engine\GameController.c(60,36): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:\programming\Visual_Studio\ChamEngineFixed\Engine\GameController.c(64,36): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+D:\programming\Visual_Studio\ChamEngineFixed\Engine\GameController.c(68,36): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+D:\programming\Visual_Studio\ChamEngineFixed\Engine\GameController.c(73,36): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+  main.c
+D:\programming\Visual_Studio\ChamEngineFixed\Engine\GameObject\Transform\Transform.h(14,2): warning C4091: 'typedef ': ignored on left of 'Position' when no variable is declared
+D:\programming\Visual_Studio\ChamEngineFixed\Engine\GameObject\Transform\Transform.h(19,2): warning C4091: 'typedef ': ignored on left of 'Scale' when no variable is declared
+D:\programming\Visual_Studio\ChamEngineFixed\Engine\GameObject\Colliders\Collider.h(12,2): warning C4091: 'typedef ': ignored on left of 'Collider' when no variable is declared
+D:\programming\Visual_Studio\ChamEngineFixed\Engine\GameObject\GameObject.h(23,2): warning C4091: 'typedef ': ignored on left of 'GameObject' when no variable is declared
+D:\programming\Visual_Studio\ChamEngineFixed\Engine\GameObject\GameObject.h(32,2): warning C4091: 'typedef ': ignored on left of 'RenderDataForObject' when no variable is declared
+D:\programming\Visual_Studio\ChamEngineFixed\main.c(12,21): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  ChamEngineFixed.vcxproj -> D:\programming\Visual_Studio\ChamEngineFixed\x64\Debug\ChamEngineFixed.exe
